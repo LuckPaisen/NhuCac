@@ -1,0 +1,27 @@
+getgenv().BloxFruits = {
+    ["Team"] = "Marines",
+    ["TweenSpeed"] = 1000,
+    ["Fruit"] = {
+        ["FruitNotifier"] = false,
+        ["AutoRandom"] = true,
+        ["FruitSniper"] = {
+            ["Enabled"] = false,
+            ["TargetFruits"] = {"Yeti-Yeti", "Dragon-Dragon", "Dough-Dough"},
+        },
+    },
+    ["Farm"] = {
+        ["Enabled"] = true,
+        ["FastMethod"] = false,
+        ["AutoHop"] = true,
+        ["ItemHop"] = true,
+    },
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["URL"] = "Your Webhook Url",
+        ["UserId"] = "https://www.facebook.com/profile.php?id=61566001748068",
+    },
+    ["BlackScreen"] = false,
+    ["FpsBoost"] = false,
+    ["AntiIdle"] = true,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()'))()
